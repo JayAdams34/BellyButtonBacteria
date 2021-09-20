@@ -144,9 +144,9 @@ function buildCharts(sample) {
       value: g_wfreq,
       type: "indicator",
       mode: "gauge+number",
-      title: {text: "<u> Weekly Frequency on Belly Button Washing</u>"},
+      title: {text: "Weekly Frequency on Belly Button Washing"},
       gauge: {
-        axis: {range: [null, 10]},
+        axis: {range: [null, 10], dtick: "2"},
         bar: {color: "grey"},
         steps:[
           {range: [0, 2], color: "red"},
@@ -154,7 +154,7 @@ function buildCharts(sample) {
           {range: [4, 6], color: "green"},
           {range: [6, 8], color: "blue"},
           {range: [8, 10], color: "violet"}
-      ]}
+      ], dtick: 2}
      
     }];
     
