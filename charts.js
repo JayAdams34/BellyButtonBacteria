@@ -94,8 +94,8 @@ function buildCharts(sample) {
     Plotly.newPlot("bar", barData, barLayout);
 
     ///DELIVERABLE 2
-    var otu_bubble_v = sample_1.sample_values
-    var otu_bubble_l = sample_1.otu_labels
+    var otu_bubble_v = sample_1.sample_values;
+    var otu_bubble_l = sample_1.otu_labels;
 
     // 1. Create the trace for the bubble chart.
     var bubbleData = [{
